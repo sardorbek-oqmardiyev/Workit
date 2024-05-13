@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(../img/Rectangle.png) no-repeat center top;
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: url(../img/prujina.svg) no-repeat left;
+    width: 100%;
+    height: 556px;
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      padding-top: 56px;
+      padding-bottom: 55px;
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 100%;
+      max-width: 1110px;
+      height: 35px;
+      img {
+        width: 97px;
+        height: 26px;
+      }
+      a {
+        text-decoration: none;
+        width: 140px;
+        height: 35px;
+        button {
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 178%;
+          letter-spacing: -0.01em;
+          width: 140px;
+          height: 35px;
+          background: #24053e;
+          cursor: pointer;
+          border: none;
+          border-bottom: 3px solid #44ffa1;
+          color: #fff;
+          &:hover {
+            transition: 0.3s;
+            color: #44ffa1;
+          }
+        }
+      }
+    }
+    .data {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 37px;
+      background: url(../img/prujina\ pini.svg) no-repeat right bottom;
+      margin: 0 auto;
+      width: 100%;
+      height: 349px;
+      h1 {
+        font-family: "Fraunces" sans-serif;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 100%;
+        text-align: center;
+        color: #fff;
+        span {
+          border-bottom: 3px solid #44ffa1;
+        }
+      }
+      button {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 178%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        cursor: pointer;
+        border: 2px solid #44ffa1;
+        width: 161px;
+        height: 61px;
+        background: #44ffa1;
+        color: #24053e;
+        &:hover {
+          transition: 0.3s;
+          background: #24053e;
+          color: #44ffa1;
+        }
+      }
+    }
+  }
+  main {
+    flex-grow: 1;
+    .phone {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: 839px;
+      .phone_img {
+        transform: translateY(-100px);
+        align-self: center;
+        width: 767px;
+        height: 441px;
+      }
+      .number {
+        display: flex;
+        justify-content: space-between;
+        width: 1114px;
+        height: 308px;
+        .number_box {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 28px;
+          width: 354px;
+          height: 308px;
+          img {
+            width: 56px;
+            height: 56px;
+          }
+          .text {
+            h2 {
+              padding-bottom: 24px;
+              font-family: "Fraunces" sans-serif;
+              font-weight: 600;
+              font-size: 32px;
+              line-height: 125%;
+              text-align: center;
+              color: var(--dark-purple);
+            }
+            p {
+              font-family: "Manrope", sans-serif;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 178%;
+              text-align: center;
+              color: #584d62;
+            }
+          }
+        }
+      }
+    }
+    .first {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      background: url(../img/image-removebg-preview\(363\).png) no-repeat top
+        left;
+      margin: 0 auto;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 121px;
+      width: 100%;
+      max-width: 1112px;
+      height: 647px;
+      .be_the {
+        background: #24053e;
+        width: 730px;
+        height: 413px;
+        .be_the_box {
+          padding-left: 64px;
+          padding-top: 64px;
+          width: 602px;
+          height: 308px;
+          h3 {
+            font-family: "Fraunces" sans-serif;
+            font-weight: 600;
+            padding-bottom: 32px;
+            font-size: 56px;
+            line-height: 114%;
+            color: #fff;
+          }
+          p {
+            font-family: "Manrope", sans-serif;
+            padding-bottom: 32px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 178%;
+            color: #fff;
+          }
+          button {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 178%;
+            letter-spacing: -0.01em;
+            text-align: center;
+            border: 2px solid #44ffa1;
+            cursor: pointer;
+            width: 190px;
+            height: 61px;
+            background: #44ffa1;
+            color: #24053e;
+            &:hover {
+              transition: 0.3s;
+              background: #24053e;
+              color: #44ffa1;
+            }
+          }
+        }
+        img {
+          transform: translate(450px, -100px);
+        }
+      }
+    }
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 116px;
+    height: 212px;
+    .icons {
+      display: flex;
+      gap: 28px;
+      width: 116px;
+      height: 20px;
+      a {
+        svg {
+          cursor: pointer;
+          &:hover path {
+            transform: 0.3s;
+            fill: #24053e;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1160px) {
+  body {
+    .wrapper {
+      background: url(../img/prujina_tablet.png) no-repeat left;
+      header {
+        max-width: 689px;
+        height: 34px;
+        a {
+          button {
+            font-size: 15px;
+            width: 124px;
+            height: 34px;
+          }
+        }
+      }
+      .data {
+        background: url(../img/prujina_mini_tablet.png) no-repeat right bottom;
+        h1 {
+          font-size: 60px;
+        }
+        button {
+          width: 133px;
+          height: 55px;
+        }
+      }
+    }
+    main {
+      .phone {
+        height: 1300px;
+        .phone_img {
+          transform: translateY(-100px);
+          width: 514px;
+          height: 296px;
+        }
+        .number {
+          flex-direction: column;
+          width: 573px;
+          height: 742px;
+          .number_box {
+            flex-direction: row;
+            align-items: center;
+            width: 573px;
+            height: 108px;
+            .text {
+              h2 {
+                text-align: start;
+              }
+              p {
+                text-align: start;
+              }
+            }
+          }
+        }
+      }
+      .first {
+        max-width: 689px;
+        height: 526px;
+        background: url(../img/image-removebg-preview_tablet.png) no-repeat;
+        .be_the {
+          width: 514px;
+          height: 375px;
+          .be_the_box {
+            gap: 20px;
+            width: 402px;
+            height: 112px;
+            h3 {
+              padding-bottom: 24px;
+              font-size: 48px;
+            }
+            p {
+              padding-bottom: 24px;
+              font-size: 16px;
+            }
+            button {
+              font-size: 16px;
+              width: 172px;
+              height: 55px;
+            }
+          }
+          img {
+            transform: translate(280px, 100px);
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 530px) {
+  body {
+    background: url(../img/Rectangle_tablet.svg) no-repeat;
+    .wrapper {
+      background: none;
+      header {
+        max-width: 343px;
+        height: 34px;
+      }
+      .data {
+        background: none;
+        width: 343px;
+        height: 195px;
+        h1 {
+          font-size: 45px;
+        }
+      }
+    }
+    main {
+      .phone {
+        height: 1300px;
+        .phone_img {
+          transform: translateY(-100px);
+          width: 320px;
+          height: 184px;
+        }
+        .number {
+          flex-direction: column;
+          gap: 100px;
+          width: 343px;
+          height: 900px;
+          .number_box {
+            flex-direction: column;
+            align-items: center;
+            width: 343px;
+            height: 206px;
+            .text {
+              h2 {
+                text-align: center;
+              }
+              p {
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+      .first {
+        max-width: 343px;
+        height: 603px;
+        background: url(../img/image-removebg-preview_tablet.png) no-repeat top;
+        .be_the {
+          width: 343px;
+          height: 375px;
+          .be_the_box {
+            padding-top: 32px;
+            padding-left: 31px;
+            width: 281px;
+            height: 112px;
+            h3 {
+              padding-bottom: 16px;
+              font-size: 32px;
+              text-align: center;
+            }
+            p {
+              padding-bottom: 16px;
+              font-size: 16px;
+              text-align: center;
+            }
+            button {
+              margin-left: 50px;
+              font-size: 16px;
+              width: 172px;
+              height: 55px;
+            }
+          }
+          img {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
